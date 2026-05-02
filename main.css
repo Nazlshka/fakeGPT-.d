@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+}
+
+.sidebar {
+    width: 240px;
+    height: 100vh;
+    background: #202123;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.sidebar-ust {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sidebar button {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background: #2a2b32;
+    color: white;
+    cursor: pointer;
+}
+
+.sidebar-ad {
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+.main {
+    flex: 1;
+    height: 100vh;
+    background: #1f2023;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.merkez {
+    flex: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.merkez h1 {
+    font-size: 32px;
+    font-weight: 500;
+    color: white;
+}
+
+.bottom-bar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.input-hissesi {
+    width: 60%;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    background: #2c2c2c;
+}
+
+.input-hissesi input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+}
+
+.input-hissesi button {
+    border: none;
+    padding: 8px 12px;
+    border-radius: 10px;
+    background: #2015bb;
+    color: white;
+    cursor: pointer;
+}
